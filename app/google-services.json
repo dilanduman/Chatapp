@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "107757198195",
+    "project_id": "uochatapp-bac6d",
+    "storage_bucket": "uochatapp-bac6d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107757198195:android:4e87c6173d86f27b850306",
+        "android_client_info": {
+          "package_name": "com.android.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "107757198195-7etogf243912sqrjuc2g6corca55cses.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.application",
+            "certificate_hash": "36ab52094cd6d2fc90866d4097155a313026ea1b"
+          }
+        },
+        {
+          "client_id": "107757198195-mqdbd9la0c5g8jpju74cf02d9a1vpvkc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBuma1vUuDBbAUGhc2d_kwniG4I7T5iVw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "107757198195-mqdbd9la0c5g8jpju74cf02d9a1vpvkc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

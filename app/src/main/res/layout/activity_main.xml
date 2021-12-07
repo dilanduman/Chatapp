@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@color/colorPrimary"
+    android:background="@color/white"
     android:padding="20dp"
     >
     <ImageView
@@ -14,8 +14,8 @@
         android:src="@drawable/uochatapp_logo"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/txtWelcomeAppName"
-        android:layout_marginTop="30dp"/>
-
+        android:layout_marginTop="20dp"
+        />
     <TextView
         android:id="@+id/txtWelcomeAppName"
         android:layout_width="wrap_content"
@@ -24,17 +24,18 @@
         android:textSize="35sp"
         android:textColor="@android:color/black"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="35sp"/>
+        android:layout_marginTop="35sp"
+        />
     <Button
+        android:id="@+id/btnWelcomeLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/i_have_account"
-        android:background="@color/colorRedButton"
+        android:background="@color/teal_200"
         android:textColor="@android:color/white"
         android:layout_above="@id/btnWelcomeRegister"
         android:layout_marginBottom="25dp"
         />
-
     <Button
         android:id="@+id/btnWelcomeRegister"
         android:layout_width="match_parent"
@@ -44,7 +45,4 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="50dp"
         />
-
-
-
 </RelativeLayout>
