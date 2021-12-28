@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Chatapp</string>
+    <string name="create_new_account">YENI HESAP OLUŞTUR</string>
+    <string name="i_have_account">HESABIM VAR</string>
+    <string name="username">Kullanıcı Adı</string>
+    <string name="email">Email</string>
+    <string name="password">Parola</string>
+    <string name="lower_create_new_account_">Yeni Hesap Oluştur</string>
+    <string name="create_account">HESAP OLUŞTUR</string>
+    <string name="login_with_your_account">Hesabınızla Giriş Yapınız</string>
+    <string name="login">Giriş Yap</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

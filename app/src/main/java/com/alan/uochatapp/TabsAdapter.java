@@ -3,8 +3,11 @@ package com.alan.uochatapp;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
+import androidx.viewpager2.adapter.FragmentStateAdapter;
+import androidx.viewpager.widget.PagerAdapter;
 
-public class TabsAdapter extends FragmentsPagerAdapter {
+public class TabsAdapter extends FragmentPagerAdapter {
 
     public TabsAdapter(FragmentManager fm) {
         super(fm);

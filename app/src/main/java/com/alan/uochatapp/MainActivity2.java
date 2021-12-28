@@ -13,9 +13,14 @@ public class MainActivity2 extends AppCompatActivity {
     private TabLayout tabsMain;
     private TabsAdapter tabsAdapter;
 
+   /* private FirebaseUser currentUser;*/
+
+
+
 
 
     public void init(){
+
         actionbar= (Toolbar) findViewById(R.id.actionBar);
         setSupportActionBar(actionbar);
         getSupportActionBar().setTitle(R.string.app_name);
@@ -26,6 +31,10 @@ public class MainActivity2 extends AppCompatActivity {
 
         tabsMain= (TabLayout) findViewById(R.id.tabsMain);
         tabsMain.setupWithViewPager(vpMain);
+
+
+
+
     }
 
     @Override
